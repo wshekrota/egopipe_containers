@@ -1,9 +1,9 @@
 ## Building containers to run testing for egopipe application
 
-```
+---
 * cd to app directory
 * docker build . 
-```
+---
 
 ### Copies necessary files in place and starts app
 
