@@ -1,11 +1,11 @@
 FROM ubuntu:latest
-# Create single elastic node from recent ubuntu image
+# Create logstash image from recent ubuntu image
 
 # Install latest patches wget
 RUN apt-get update && apt-get install -y \
     && apt-get install -y wget && apt-get install -y openjdk-8-jre
 
-# download elasticsearch deb
+# download logstash deb
 RUN wget https://artifacts.elastic.co/downloads/logstash/logstash-7.6.2.deb
 
 # Install deb
