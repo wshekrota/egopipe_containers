@@ -1,5 +1,7 @@
 ## Building containers to run testing for egopipe application
 
+### For each application
+
 ---
 * cd to app directory
 * docker build . 
@@ -19,6 +21,10 @@ respectively. You'll know quick enough when you try the api interface. If there 
 'docker inspect' on the container.
 
 and 192.168.1.45 is my laptop
+
+If you are using gitlab as an application you also have the option of installing it directly on your 
+laptop being in the same network you will not require special routing.
+I
 
 ### Topography
 
