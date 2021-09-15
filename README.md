@@ -33,3 +33,8 @@ up and you are not getting any input be suspicious of the route table. You may r
 or program to generate messages  but the logic will be similar combination. application/shipper
 
 Gitlab/Filebeat(vm) -> logstash/egopipe(container) -> Elasticsearch(container) <- Kibana(container)
+
+### Disclaimer
+
+In a production sense you would not do something like this, rolling the config in the container image static.
+You would build a stateful kubernetes and apply config file changes thus not having to reimage.
